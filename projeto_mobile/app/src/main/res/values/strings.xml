@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Projeto</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="email">Email</string>
+    <string name="pass">Password</string>
+    <string name="login">Login</string>
+    <string name="register">Registo</string>
+    <string name="username">Username</string>
+    <string name="morada">Morada</string>
+    <string name="telefone">Telefone</string>
+    <string name="codPostal">Código Postal</string>
+    <string name="nif">NIF</string>
+    <string name="nome">Nome</string>
+    <string name="newAccount">Criar uma Conta</string>
+    <string name="inStock">Em Stock</string>
+    <string name="outStock">Fora de Stock</string>
+    <string name="sem_internet">Sem ligação a Internet</string>
+    <string name="EditCart">Editar Carrinho</string>
+    <string name="Categorias">Categorias</string>
+    <string name="Marcas">Marcas</string>
+    <string name="Ordem">Ordem</string>
+    <string name="Procurar">Escreve o que procuras...</string>
+</resources>

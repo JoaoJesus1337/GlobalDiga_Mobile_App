@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".FiltersActivity">
+
+  <EditText
+      android:id="@+id/tbSearch"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:ems="10"
+      android:hint="@string/Procurar"
+      android:inputType="textPersonName"
+      android:minHeight="48dp" />
+
+  <Space
+      android:layout_width="match_parent"
+      android:layout_height="10dp" />
+
+  <TextView
+      android:id="@+id/textView"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Filtros"
+      android:textSize="16sp"
+      android:textStyle="bold" />
+
+  <View
+      android:id="@+id/divider6"
+      android:layout_width="match_parent"
+      android:layout_height="1dp"
+      android:background="?android:attr/listDivider" />
+
+  <Spinner
+      android:id="@+id/spinnerCategorias"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:contentDescription="@string/Categorias"
+      android:minHeight="48dp"
+      android:prompt="@string/Categorias"
+      android:spinnerMode="dropdown" />
+
+  <Spinner
+      android:id="@+id/spinnerMarcas"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:contentDescription="@string/Marcas"
+      android:minHeight="48dp"
+      android:prompt="@string/Marcas"
+      android:spinnerMode="dropdown" />
+
+  <Spinner
+      android:id="@+id/spinnerOrdem"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:contentDescription="@string/Marcas"
+      android:minHeight="48dp"
+      android:prompt="@string/Ordem"
+      android:spinnerMode="dropdown" />
+
+  <Space
+      android:layout_width="match_parent"
+      android:layout_height="10dp" />
+
+  <Button
+      android:id="@+id/btnSearch"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:onClick="onCLickSearch"
+      android:text="Procurar"
+      app:icon="@drawable/ic_search"
+      app:iconTint="@color/white" />
+
+</LinearLayout>
