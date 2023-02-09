@@ -123,3 +123,11 @@
 <img src="ReadMeImgs/dados pessoais.jpg" />
 
 <br>
+
+<br>
+
+# CO-Author
+
+<br>
+
+[@RodrigoCarreira](https://github.com/RFCarreira33)
